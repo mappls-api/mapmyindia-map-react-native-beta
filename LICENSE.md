@@ -1,7 +1,5 @@
 BSD 3-Clause License
 
-BSD 3-Clause License
-
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
 
 MapmyIndia © Copyright 2018 CE Info Systems Pvt. Ltd.

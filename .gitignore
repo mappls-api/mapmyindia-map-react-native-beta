@@ -1,0 +1,24 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+
+
+# node.js
+#
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# project specific
+ios/
+android/
+javascript/
+style-spec/
+scripts/
+
+.npmignore
+react-native-mapmyindia-maps.podspec
+package.json
