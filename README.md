@@ -68,9 +68,9 @@ shared between platforms, so the API hits you make from a web application, Andro
 * [BackgroundLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/BackgroundLayer)
 * [CircleLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/CircleLayer)
 * [FillExtrusionLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/FillExtrusionLayer)
-* [FillLayer]()
-* [LineLayer]()
-* [SymbolLayer]()
+* [FillLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/FillLayer)
+* [LineLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/LineLayer)
+* [SymbolLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/SymbolLayer)
 
 For any queries and support, please contact: 
 
