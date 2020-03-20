@@ -10,14 +10,14 @@ Powered with India's most comprehensive and robust mapping functionalities.
 1. For full documentation contact MapmyIndia here:
 Email: [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com).
 2. You can get your api key to be used in this document here: [https://www.mapmyindia.com/api/signup](https://www.mapmyindia.com/api/signup)
-3. The beta code is provided to help you understand the basic functionality of MapmyIndia maps APIs working on React Native development platform. 
+3. The beta code is provided to help you understand the basic functionality of MapmyIndia maps APIs working on React Native development platform.
 
 ## Version History
 
 | Version | Last Updated | Author |
 | ---- | ---- | ---- |
 | 0.0.1 | January 2019 | MapmyIndia API Team ([AS](https://github.com/anujsinghwd), [BM](https://github.com/balmukandpathak)) |
-
+| 0.0.5 | March 2020 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja]) |
 
 ## What is Mapmyindia?
 
@@ -28,8 +28,8 @@ Mapmyindia is the location data platform for mobile and web applications. We pro
 Not a Mapmyindia user yet? [Sign up for an account here](https://www.mapmyindia.com/api/signup). Once you’re signed in, all you need to start building is a Mapmyindia key. Use this same short code with all of our interactive mapping libraries, JavaScript SDKs, and directly against our REST APIs. You can create and manage your access tokens on your [Mapmyindia Account page](https://www.mapmyindia.com/api/dashboard).
 
 ## API Usage
-Your MapmyIndia Maps SDK usage needs a set of license keys ([get them here](http://www.mapmyindia.com/api/signup) ) and is governed by the API [terms and conditions](https://www.mapmyindia.com/api/terms-&-conditions). 
-As part of the terms and conditions, you cannot remove or hide the MapmyIndia logo and copyright information in your project. 
+Your MapmyIndia Maps SDK usage needs a set of license keys ([get them here](http://www.mapmyindia.com/api/signup) ) and is governed by the API [terms and conditions](https://www.mapmyindia.com/api/terms-&-conditions).
+As part of the terms and conditions, you cannot remove or hide the MapmyIndia logo and copyright information in your project.
 Please see [branding guidelines](https://www.mapmyindia.com/api/advanced-maps/API-Branding-Guidelines.pdf) on MapmyIndia [website](https://www.mapmyindia.com/api) for more details.
 The allowed SDK hits are described on the plans page. Note that your usage is
 shared between platforms, so the API hits you make from a web application, Android app or an iOS app all add up to your allowed daily limit.
@@ -41,7 +41,7 @@ shared between platforms, so the API hits you make from a web application, Andro
 
 * [node](https://nodejs.org)
 * [npm](https://www.npmjs.com/)
-* [React Native](https://facebook.github.io/react-native/):  recommended version 0.50 or greater
+* [React Native](https://facebook.github.io/react-native/):  recommended version 0.60 or greater
 
 **npm**
 ```
@@ -72,9 +72,9 @@ shared between platforms, so the API hits you make from a web application, Andro
 * [LineLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/LineLayer)
 * [SymbolLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/SymbolLayer)
 
-For any queries and support, please contact: 
+For any queries and support, please contact:
 
-![Email](https://www.google.com/a/cpanel/mapmyindia.co.in/images/logo.gif?service=google_gsuite) 
+![Email](https://www.google.com/a/cpanel/mapmyindia.co.in/images/logo.gif?service=google_gsuite)
 Email us at [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com)
 
 ![](https://www.mapmyindia.com/api/img/icons/stack-overflow.png)
