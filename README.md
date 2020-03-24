@@ -7,7 +7,7 @@
 Powered with India's most comprehensive and robust mapping functionalities.
 **Now Available**  for Srilanka, Nepal, Bhutan and Bangladesh
 
-1. For full documentation contact MapmyIndia here:
+1. For further information contact MapmyIndia here:
 Email: [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com).
 2. You can get your api key to be used in this document here: [https://www.mapmyindia.com/api/signup](https://www.mapmyindia.com/api/signup)
 3. The beta code is provided to help you understand the basic functionality of MapmyIndia maps APIs working on React Native development platform.
@@ -17,7 +17,7 @@ Email: [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com).
 | Version | Last Updated | Author |
 | ---- | ---- | ---- |
 | 0.0.1 | January 2019 | MapmyIndia API Team ([AS](https://github.com/anujsinghwd), [BM](https://github.com/balmukandpathak)) |
-| 0.0.5 | March 2020 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja]) |
+| 0.0.5 | March 2020 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
 
 ## What is Mapmyindia?
 
@@ -90,6 +90,6 @@ Need support? contact us!
 Read about the latest updates & customer stories
 
 
-> © Copyright 2019. CE Info Systems Pvt. Ltd. All Rights Reserved. | [Terms & Conditions](http://www.mapmyindia.com/api/terms-&-conditions)
-> mapbox-gl-native copyright (c) 2014-2018 Mapbox.
->  Written with [StackEdit](https://stackedit.io/) by MapmyIndia.
+> © Copyright 2020. CE Info Systems Pvt. Ltd. All Rights Reserved. | [Terms & Conditions](http://www.mapmyindia.com/api/terms-&-conditions)
+
+> mapbox-gl-native copyright (c) 2014-2020 Mapbox.
