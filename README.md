@@ -18,7 +18,7 @@ Email: [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com).
 | ---- | ---- | ---- |
 | 0.0.1 | January 2019 | MapmyIndia API Team ([AS](https://github.com/anujsinghwd), [BM](https://github.com/balmukandpathak)) |
 | 0.0.5 | March 2020 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
-
+| 0.0.8 | August 2020 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
 ## What is Mapmyindia?
 
 Mapmyindia is the location data platform for mobile and web applications. We provide [building blocks](https://www.mapmyindia.com/) to add location features like maps, search, and navigation into any experience you create. Use our simple and powerful APIs & SDKs for interactivity and control.
@@ -91,5 +91,3 @@ Read about the latest updates & customer stories
 
 
 > © Copyright 2020. CE Info Systems Pvt. Ltd. All Rights Reserved. | [Terms & Conditions](http://www.mapmyindia.com/api/terms-&-conditions)
-
-> mapbox-gl-native copyright (c) 2014-2020 Mapbox.
