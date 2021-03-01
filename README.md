@@ -16,9 +16,9 @@ Email: [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com).
 
 | Version | Last Updated | Author |
 | ---- | ---- | ---- |
-| 0.0.1 | January 2019 | MapmyIndia API Team ([AS](https://github.com/anujsinghwd), [BM](https://github.com/balmukandpathak)) |
-| 0.0.5 | March 2020 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
-| 0.0.8 | August 2020 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
+| 0.0.15 | February 2021 |MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja] |
+| 0.0.14 | February 2021 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
+| 0.0.13 | January 2021 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
 ## What is Mapmyindia?
 
 Mapmyindia is the location data platform for mobile and web applications. We provide [building blocks](https://www.mapmyindia.com/) to add location features like maps, search, and navigation into any experience you create. Use our simple and powerful APIs & SDKs for interactivity and control.
@@ -53,6 +53,39 @@ shared between platforms, so the API hits you make from a web application, Andro
 * [iOS](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/iOSInstall)
 * [Android](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/android_install)
 
+## How to Add a MapView
+
+~~~javascript
+import React, { Component } from "react";
+import {View } from "react-native";
+import  MapmyIndiaGL  from  'mapmyindia-map-react-native-beta';
+
+MapmyIndiaGL.setMapSDKKey("");//place your mapsdkKey
+MapmyIndiaGL.setRestAPIKey("");//your restApiKey
+MapmyIndiaGL.setAtlasClientId("");//your atlasClientId key
+MapmyIndiaGL.setAtlasClientSecret(""); //your atlasClientSecret key
+MapmyIndiaGL.setAtlasGrantType("");
+
+
+export default class App extends Component {
+  render() {
+    return (
+      <View style={{flex:1}}>
+          <MapmyIndiaGL.MapView style={{flex:1}} >
+		  <MapmyIndiaGL.Camera
+                ref={c  => (this.camera = c)}
+                zoomLevel={12}
+                minZoomLevel={4}
+                maxZoomLevel={22}
+                centerCoordinate={[77.231409,28.6162]}
+                 />
+		 </MapmyIndiaGL.MapView>
+      </View>
+    );
+  }
+}
+~~~
+
 ## Documentation
 
 ### Components
@@ -60,14 +93,18 @@ shared between platforms, so the API hits you make from a web application, Andro
 * [Light](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Light)
 * [PointAnnotation](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/PointAnnotation)
 * [Callout](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Callout)
+*  [Camera](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Camera)
+* [UserLocation](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/UserLocation)
+*  [Images](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Images)
 
 ### Sources
-* [ImageSource](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/ImageSource)
+* [ShapeSource](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/ShapeSource)
+*  [VectorSource](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/VectorSource)
+* [RasterSource](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/RasterSource)
 
 ### Layers
 * [BackgroundLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/BackgroundLayer)
 * [CircleLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/CircleLayer)
-* [FillExtrusionLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/FillExtrusionLayer)
 * [FillLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/FillLayer)
 * [LineLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/LineLayer)
 * [SymbolLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/SymbolLayer)
@@ -90,4 +127,5 @@ Need support? contact us!
 Read about the latest updates & customer stories
 
 
-> © Copyright 2020. CE Info Systems Pvt. Ltd. All Rights Reserved. | [Terms & Conditions](http://www.mapmyindia.com/api/terms-&-conditions)
+> © Copyright 2021. CE Info Systems Pvt. Ltd. All Rights Reserved. | [Terms & Conditions](http://www.mapmyindia.com/api/terms-&-conditions)
+
