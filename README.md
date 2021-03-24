@@ -16,6 +16,7 @@ Email: [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com).
 
 | Version | Last Updated | Author |
 | ---- | ---- | ---- |
+| 0.1.0 | March 2021 |MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja] |
 | 0.0.15 | February 2021 |MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja] |
 | 0.0.14 | February 2021 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
 | 0.0.13 | January 2021 | MapmyIndia API Team ([Mohammad Akram](https://github.com/mdakram), [Robin Kukreja](https://github.com/spacekingindia)) |
