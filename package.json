@@ -1,0 +1,54 @@
+{
+  "name": "vector_map",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "buid": "build_debug_offline.sh"
+  },
+  "dependencies": {
+    "@react-native-community/checkbox": "^0.5.7",
+    "@react-native-community/masked-view": "^0.1.7",
+    "@react-native-community/netinfo": "^6.0.0",
+    "@react-native-community/toolbar-android": "^0.1.0-rc.2",
+    "@react-navigation/native": "^5.1.1",
+    "@react-navigation/stack": "^5.2.3",
+    "@turf/turf": "^5.1.6",
+    "mapmyindia-direction-widget-react-native": "0.1.0",
+    "mapmyindia-geofence-widget-react-native": "^0.1.0",
+    "mapmyindia-map-react-native-beta": "0.1.0",
+    "mapmyindia-polyline": "0.0.1",
+    "mapmyindia-restapi-react-native-beta": "0.0.12",
+    "mapmyindia-search-widgets-react-native": "^0.1.1",
+    "radio-buttons-react-native": "^1.0.4",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-android-location-enabler": "^1.2.1",
+    "react-native-color-picker": "^0.6.0",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.4.0",
+    "react-native-simple-toast": "^1.0.0",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/helper-module-transforms": "^7.13.0",
+    "@babel/runtime": "^7.13.9",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
