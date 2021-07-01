@@ -33,8 +33,6 @@ MapmyIndiaGL.setMapSDKKey(mapSDKKey);//place your mapsdkKey
 MapmyIndiaGL.setRestAPIKey(restAPIKey);//your restApiKey
 MapmyIndiaGL.setAtlasClientId(atlasClientId);//your atlasClientId key
 MapmyIndiaGL.setAtlasClientSecret(atlasClientSecret); //your atlasClientSecret key
-MapmyIndiaGL.setAtlasGrantType(atlasGrantType);
-
 
 
 //restApi sdk
