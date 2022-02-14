@@ -1,3 +1,4 @@
+﻿
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
 
 # Mapmyindia Maps SDK for React Native beta
@@ -90,25 +91,29 @@ export default class App extends Component {
 ## Documentation
 
 ### Components
-* [MapView](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/MapView)
-* [Light](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Light)
-* [PointAnnotation](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/PointAnnotation)
-* [Callout](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Callout)
-*  [Camera](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Camera)
-* [UserLocation](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/UserLocation)
-*  [Images](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/Images)
+* [MapView](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/MapView)
+* [Light](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/Light)
+* [PointAnnotation](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/PointAnnotation)
+* [Callout](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/Callout)
+*  [Camera](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/Camera)
+* [UserLocation](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/UserLocation)
+*  [Images](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/Images)
 
 ### Sources
-* [ShapeSource](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/ShapeSource)
-*  [VectorSource](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/VectorSource)
-* [RasterSource](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/RasterSource)
+* [ShapeSource](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/ShapeSource)
+*  [VectorSource](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/VectorSource)
+* [RasterSource](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/RasterSource)
 
 ### Layers
-* [BackgroundLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/BackgroundLayer)
-* [CircleLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/CircleLayer)
-* [FillLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/FillLayer)
-* [LineLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/LineLayer)
-* [SymbolLayer](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/SymbolLayer)
+* [BackgroundLayer](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/BackgroundLayer)
+* [CircleLayer](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/CircleLayer)
+* [FillLayer](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/FillLayer)
+* [LineLayer](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/LineLayer)
+* [SymbolLayer](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/SymbolLayer)
+
+## IMPORTANT
+
+>To read further, please refer to documentation available here: [https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki)
 
 For any queries and support, please contact:
 
