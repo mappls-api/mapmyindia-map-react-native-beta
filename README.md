@@ -52,8 +52,8 @@ shared between platforms, so the API hits you make from a web application, Andro
 
 ## Installation Guides
 
-* [iOS](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/iOSInstall)
-* [Android](https://github.com/MapmyIndia/mapmyindia-map-react-native-beta/wiki/android_install)
+* [iOS](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/iOSInstall)
+* [Android](https://github.com/mappls-api/mapmyindia-map-react-native-beta/wiki/android_install)
 
 ## How to Add a MapView
 
